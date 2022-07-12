@@ -1,0 +1,36 @@
+@font-face {
+    font-family:'TengwarAnnatarGlaemunicode';
+    src:url(font/tengwar.eot);
+    src:url(font/tengwar.eot?#iefix) format("embedded-opentype"),url(font/tengwar.ttf) format("truetype");
+    font-weight:normal;
+    font-style:normal
+}
+
+.tengwar {
+    font-family:'TengwarAnnatarGlaemunicode';
+    font-size:110%;
+    line-height:1.5;
+    text-decoration:none;
+    font-weight:normal !important
+}
+
+.tengwar.start {
+    color:#ccc;
+    font-size:200%;
+    text-align:center;
+    margin:20mm 0 8mm 0;
+    padding:0
+}
+
+.tengwar-lg {
+    font-size:150%
+}
+
+.tengwar.header {
+    float:right;
+    color:#ccc
+}
+
+input.tengwar {
+    font-size:120%
+}
